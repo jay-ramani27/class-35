@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      //add here
+      var firebaseConfig = {
+  apiKey: "AIzaSyD5JT9dpHSUCG8EtSClFqYFNiScdOfNmgc",
+  authDomain: "multiplayer-ball-movemen-59202.firebaseapp.com",
+  databaseURL: "https://multiplayer-ball-movemen-59202-default-rtdb.firebaseio.com",
+  projectId: "multiplayer-ball-movemen-59202",
+  storageBucket: "multiplayer-ball-movemen-59202.appspot.com",
+  messagingSenderId: "45397186557",
+  appId: "1:45397186557:web:820c92e0baa8ad898deb94"
+};
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
